@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="eng".
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Portfolio Website - Lugman Abdi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1621c90b1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science/Data Science Student</p>
+            <h1>Hi, I'm <span>Lugman Abdi</span>!</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="about">
+    <div class ="container">
+        <div class = "row">
+            <div class="about-col-1">
+                <img src="Images/logo2.png">
+            </div>
+            <div class="about-col-2">
+
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <br>
+                <p>I am currently studying Computer Science with a minor in Data Science at Augsburg University, where I focus on programming, data analysis, and problem-solving. My coursework has helped me build a strong foundation in coding languages like Python, R, and Java, and I’m passionate about applying these skills to innovative solutions in technology.</p>
+
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class = "tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class = "tab-links"onclick="opentab('Education')">Education</p>
+
+
+
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>R</span><br>
+                            - Proficient in data analysis and visualization<br>
+                          </li><br>
+                          <li><span>Python</span><br>
+                            - Proficient in coding with Python<br>
+                            - Able to automate tasks with scripts<br>
+                          </li><br>
+                          <li><span>Java</span><br>
+                            - Experienced in Java programming<br>
+                          </li><br>
+                          <li><span>Excel</span><br>
+                            - Advanced skills in Excel, including formulas, pivot tables, and macros<br>
+                          </li><br>
+                          <li><span>Microsoft Office</span><br>
+                            - Proficient in Word, PowerPoint, and Excel<br>
+                          </li><br>
+                          <li><span>Data Analysis</span><br>
+                            - Skilled in analyzing and interpreting data using statistical tools<br>
+                          </li><br>
+                          <li><span>HTML</span><br>
+                            - Proficient in web development using HTML<br>
+                          </li><br>
+                          <li><span>CSS</span><br>
+                            - Familiar with styling websites using CSS<br>
+                          </li><br>                          
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Augsburg University</span><br>
+                            - Major: Computer Science<br>
+                            - Minor: Data Science<br>
+                            - GPA: 4.0
+                            - Dean's List: Fall 2023, Spring 2024<br>
+                            - Graduation: Expected 2027<br>
+                          </li><br>
+                          <li><span>St. Louis Park Senior High School</span><br>
+                            - Graduated: June 2023<br>
+                            - High School Diploma<br>
+                          </li><br>
+                          <li><span>Certified Nurse Assistant (CNA)</span><br>
+                            - Certification received: June 2023<br>
+                            - Institution: Residential Care at Nine Mile Creek, Richfield<br>
+                          </li><br>    
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Experience">
+                    <ul>
+                        <li><span>Certified Nurse Assistant (CNA) - Residential Care at Nine Mile Creek, Richfield</span><br>
+                            - Assisted residents with daily activities and provided personalized care<br>
+                            - Designed care plans and trained staff members on care protocols<br>
+                            - Employed behavioral management techniques to improve resident care<br>
+                            - Worked collaboratively with healthcare professionals to ensure high-quality support<br>
+                            - Employed since: June 2023<br>
+                          </li><br>
+                          <li><span>Assistant Manager - Residential Care at Nine Mile Creek, Richfield</span><br>
+                            - Oversee daily operations to ensure high-quality care for residents<br>
+                            - Analyze data from resident records to track progress and identify trends<br>
+                            - Report findings to nurses and doctors for timely adjustments to care plans<br>
+                            - Design individualized care plans and ensure staff are well-trained<br>
+                            - Maintain a positive and efficient environment for both residents and staff<br>
+                          </li><br>
+                          
+                          <li><span>Community Leader - Local Mosques</span><br>
+                            - Lead prayers at multiple mosques, guiding the congregation during worship<br>
+                            - Ensure correct recitation and practices are followed<br>
+                            - Foster a sense of community and engagement within the congregation<br>
+                            - Provide spiritual leadership and support to community members<br>
+                          </li><br>
+                             
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id = "Projects">
+    <div class ="container">
+        <h1 class = "sub-title">My Projects</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fa-solid fa-bars"></i> 
+                <br>  
+                <br>            
+                <h2>To Do List:</h2>
+                <br>
+                <br>
+                <p>How it works:
+                    <br>
+                    <br>
+                    Menu Options: You can add tasks, view them, mark tasks as completed, remove tasks, and exit the program.
+                    <br>
+                    <br>
+                    Task Management: Tasks are stored as dictionaries with a task name and a completed status.
+                    <br>
+                    <br>
+                    Runs in any Python environment, allowing you to manage your to-do list interactively from the console.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+            </div>
+            <div>
+                <i class="fa-solid fa-calculator"></i>
+                <br>
+                <br>
+                <h2>Advanced Calculator:</h2>
+                <br>
+                <br>
+                <p>How it works:
+                    <br>
+                    <br>
+                    Menu Options: Perform basic and advanced math operations.
+                    <br>
+                    <br>
+                    Task Flow: Select an option, input numbers, view result.
+                    <br>
+                    <br>
+                    Runs in any Python environment.
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-link"></i>
+                <br>
+                <br>
+                <h2>Personal Portfolio Website:</h2>
+                <br>
+                <br>
+                <p>How it works:
+                <br>
+                <br>
+                Showcase: Display my projects, skills, and experiences.
+                <br>
+                <br>
+                Navigation: Sections for About Me, Projects, Skills, Contact etc.
+                <br>
+                <br>
+                Accessibility: Easily viewable on any device or browser.
+                </p>
+                <br>
+                <br>
+                <br>
+
+            </div>
+        </div>
+        <a href="https://github.com/lugmanabdi" class="btn">See All</a>
+
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> abdiluqmaan552@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> (612) 803-2135</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/lugman-abdi/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/lugmanabdi"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_luqmaan.abdi/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <br>
+                <a href="Images/Resume2.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+
+
+                </form>
+                <span id="msg"></span>
+            
+            </div>
+        </div>
+    </div>
+    <div class ="copyright">
+        <p>Copyright © Lugman Abdi</p>
+    </div>
+</div>
+
+
+<script>
+   
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");   
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   }
+
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzslfks5lVlDAsoOLQanvgsZfi4RrODgR8D_Es1FeHWKrBxmD3SOIxSJqfHgF_wmr5N/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
