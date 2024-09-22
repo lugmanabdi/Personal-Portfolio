@@ -208,9 +208,12 @@
         </div>
     </div>
     <div class ="copyright">
-        <p>Copyright © Lugman Abdi</p>
+        <p>Copyright 2024 © Lugman Abdi. All rights reserved.</p>
     </div>
 </div>
+
+<!-- Scroll to Top Button -->
+<a href="#" id="scrollToTopBtn" title="Go to top">↑</a>
 
 
 <script>
@@ -260,6 +263,26 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
+<script>
+    let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+    }   else {
+            scrollToTopBtn.style.display = "none";
+        }
+    }
+
+scrollToTopBtn.onclick = function() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+};
+
+</script>
+  
 
 </body>
 </html>
